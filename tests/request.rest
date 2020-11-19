@@ -1,0 +1,17 @@
+POST http://localhost:1337/file/upload
+
+###
+
+POST http://localhost:1337/file/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="text"
+
+title
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="2.jpg"
+Content-Type: image/jpg
+
+< ./2.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
